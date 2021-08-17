@@ -11,17 +11,26 @@
   width: 100%;
   top: 0;
   left: 0;
-  background-color: blueviolet;
   
 }
 
+#nav-bar{
+  display: inline-block;
+  
+}
 
+li{
+  list-style: none;
+}
 
 #header-img {
   width: 50px;
 }
 
 #texto {
-  display: flex;
-   }
+  margin-top: 150px;
+ display: flex;
+  
+  
+}
 
