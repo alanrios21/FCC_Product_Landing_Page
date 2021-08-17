@@ -1,10 +1,27 @@
-
-
-#header{
-    color:brown;
-    background-color: cadetblue;
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
 }
 
-#header-img{
-    width: 50px;
+#header {
+  color: brown;
+  width: 100%;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: blueviolet;
+  
 }
+
+
+
+#header-img {
+  width: 50px;
+}
+
+#texto {
+  display: flex;
+   }
+
