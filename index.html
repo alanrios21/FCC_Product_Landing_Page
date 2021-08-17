@@ -28,11 +28,13 @@
         </button>
       </nav>
     </header>
-    <video src="assets/pexels-pavel-danilyuk-7593333.mp4" controls width="20%">
+    <video id="video"src="assets/pexels-pavel-danilyuk-7593333.mp4" controls width="20%">
       LA SILLA MAS MEGA COPADA DE LA VIDA
     </video>
-    <form id="form">
-      <input type="email" name="email" placeholder="Ingrese su correo" />
+    <form id="form" action="https://www.freecodecamp.com/email-submit" >
+      <input id="email" type="email" name="email" placeholder="Ingrese su correo" required/>
+      <input type="submit" name="submit" id="submit">
     </form>
+    <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   </body>
 </html>
