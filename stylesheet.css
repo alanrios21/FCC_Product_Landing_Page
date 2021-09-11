@@ -51,14 +51,19 @@ a:hover {
   margin-top: 150px;
   display: flex;
 
+   margin-top: 150px; 
+ display: flex;
+
+  
   margin: 80px 60px;
   display: flex;
   font-size: small;
 }
 
 p {
-  padding-left: 10px;
+  padding-left: 330px;
   padding-right: 30px;
+  font-size: 22px;
 }
 
 #video {
@@ -96,4 +101,12 @@ p {
   margin-top: 100px;
   text-align: center;
   font-size: 50px;
+}
+  font-size: 20px;
+}
+
+.primera-img{
+  margin-top: 50px;
+  padding-left: 300px;
+}
 }
