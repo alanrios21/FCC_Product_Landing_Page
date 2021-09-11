@@ -119,8 +119,6 @@ a:hover {
   text-align: center;
 }
 
-
-
 .mi-titulo {
   margin-top: 150px;
   text-align: center;
@@ -156,3 +154,37 @@ input {
 form p {
   font-size: 25px;
 }
+
+footer {
+  margin-top: 30px;
+  background-color: #7392b7;
+  padding: 20px;
+}
+
+footer > ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer > ul > li {
+  list-style: none;
+  padding: 0 10px;
+}
+
+footer > span {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9em;
+  color: rgb(0, 0, 0);
+}
+
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  font-family: arial;
+  text-decoration: none;
+}
+
