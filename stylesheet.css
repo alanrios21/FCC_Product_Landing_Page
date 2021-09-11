@@ -48,17 +48,6 @@ a:hover {
 }
 
 #texto {
-<<<<<<< HEAD
-=======
-  margin-top: 150px;
-  display: flex;
-
-   margin-top: 150px; 
- display: flex;
-
-  
-  margin: 80px 60px;
->>>>>>> 6fd5663649c4c6f01f4f6e3ba85adf8145209f7a
   display: flex;
   margin: 80px 60px;
 
@@ -100,21 +89,16 @@ a:hover {
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
-  border-radius:8px;
+  border-radius: 8px;
 }
 
 .mi-titulo {
   margin-top: 100px;
   text-align: center;
-  font-size: 50px;
+  font-size: 20px;
 }
-<<<<<<< HEAD
 
 .primera-img {
-=======
- 
-.primera-img{
->>>>>>> 6fd5663649c4c6f01f4f6e3ba85adf8145209f7a
   margin-top: 50px;
   padding-left: 300px;
 }
