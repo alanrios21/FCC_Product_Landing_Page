@@ -7,7 +7,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 #header {
   background-color: #7392b7;
@@ -48,10 +48,9 @@ a:hover {
 }
 
 #texto {
-   margin-top: 150px; 
- display: flex;
-  
-  
+  margin-top: 150px;
+  display: flex;
+
   margin: 80px 60px;
   display: flex;
   font-size: small;
@@ -68,6 +67,19 @@ p {
   margin-right: auto;
   margin-bottom: 50px;
 }
+.publicidad {
+  display: flex;
+}
+.slogan1 {
+  margin-top: 250px;
+  margin-left: 150px;
+  font-size: 50px;
+}
+.slogan2 {
+  margin-top: 250px;
+  margin-right: 150px;
+  font-size: 50px;
+}
 
 #form {
   text-align: center;
@@ -80,7 +92,7 @@ p {
   margin-right: auto;
 }
 
-.mi-titulo{
+.mi-titulo {
   margin-top: 100px;
   text-align: center;
   font-size: 50px;
