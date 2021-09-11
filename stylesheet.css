@@ -1,1 +1,191 @@
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #ccdbdc;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+#header {
+  background-color: #7392b7;
+  width: 100%;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  padding: 20px;
+  z-index: 1;
+ 
+}
+
+#nav-bar ul {
+  right: 20px;
+  position: fixed;
+  top: 20px;
+}
+
+#nav-bar ul li {
+  display: inline;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  margin: 30px;
+  padding: 6px 10px;
+  border-radius: 10px;
+  font-size: 22px;
+ position: relative;
+ top: 10px;
+}
+
+a:hover {
+  background: linear-gradient(#7392b7, #b3c5ef);
+}
+
+#header-img {
+  width: 50px;
+  margin-left: 40px;
+  margin-top: 0;
+}
+
+#texto {
+  display: flex;
+  margin: 80px 60px;
+
+  font-size: small;
+}
+
+.tiposdesilla {
+  padding-left: 340px;
+  padding-right: 45px;
+  font-size: 18px;
+}
+
+.tiposdesilla1{
+  padding-left: 360px;
+  padding-right: 60px;
+  font-size: 18px;
+}
+
+.tiposdesilla2{
+  padding-left: 305px;
+  padding-right: 10px;
+  font-size: 18px;
+}
+
+
+#video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+.publicidad {
+  display: flex;
+  justify-content: space-between;
+}
+.slogan1 {
+  margin-top: 250px;
+  margin-left: 50px;
+  font-size: 50px;
+  padding-left: 300px;
+  position: relative;
+  right: 100px;
+}
+.slogan2 {
+  margin-top: 250px;
+  margin-right: 50px;
+  font-size: 50px;
+  position: relative;
+  left: 20px;
+}
+
+#form {
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: -30px;
+}
+
+#form input {
+  display: flex;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 6px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.mi-titulo {
+  margin-top: 150px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.primera-img {
+  margin-top: 50px;
+  padding-left: 300px;
+}
+
+.text-precio{
+  text-align: center;
+  position: relative;
+  left: 147px;
+  margin-top: 10px;
+}
+.fondoform {
+  background-color: #7392b7;
+}
+
+#submit {
+  padding: 10px 14px;
+  font-weight: bold;
+  background-color: #8e6c88;
+  border: none;
+}
+
+input {
+  font-size: 22px;
+}
+
+form p {
+  font-size: 25px;
+}
+
+footer {
+  margin-top: 30px;
+  background-color: #7392b7;
+  padding: 20px;
+}
+
+footer > ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer > ul > li {
+  list-style: none;
+  padding: 0 10px;
+}
+
+footer > span {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9em;
+  color: rgb(0, 0, 0);
+}
+
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  font-family: arial;
+  text-decoration: none;
+}
 
