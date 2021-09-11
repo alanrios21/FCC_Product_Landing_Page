@@ -106,14 +106,17 @@ a:hover {
 
 #form {
   text-align: center;
+  padding-top: 20px;
 }
 
 #form input {
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 6px;
   border-radius: 8px;
+  text-align: center;
 }
 
 .mi-titulo {
@@ -132,4 +135,22 @@ a:hover {
   position: relative;
   left: 147px;
   margin-top: 10px;
+}
+.fondoform {
+  background-color: #7392b7;
+}
+
+#submit {
+  padding: 10px 14px;
+  font-weight: bold;
+  background-color: #8e6c88;
+  border: none;
+}
+
+input {
+  font-size: 22px;
+}
+
+form p {
+  font-size: 25px;
 }
