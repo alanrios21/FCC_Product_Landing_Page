@@ -1,13 +1,13 @@
 @media only screen and (max-width: 600px) {
   body {
-    background-color: lightblue;
+    background-color: #ccdbdc;
   }
 }
 
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 #header {
   background-color: #7392b7;
@@ -30,7 +30,7 @@
 
 .nav-link {
   text-decoration: none;
-  color: black;
+  color: white;
   margin: 20px;
   padding: 6px 10px;
   border-radius: 10px;
@@ -48,10 +48,9 @@ a:hover {
 }
 
 #texto {
-   margin-top: 150px; 
- display: flex;
-  
-  
+  margin-top: 150px;
+  display: flex;
+
   margin: 80px 60px;
   display: flex;
   font-size: small;
@@ -78,9 +77,10 @@ p {
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
+  border-radius:;
 }
 
-.mi-titulo{
+.mi-titulo {
   margin-top: 100px;
   text-align: center;
   font-size: 50px;
