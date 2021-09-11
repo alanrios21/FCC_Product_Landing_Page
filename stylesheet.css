@@ -15,7 +15,7 @@
   position: fixed;
   width: 100%;
   top: 0px;
-  left: 0;
+  left: 0px;
 }
 
 #nav-bar ul {
@@ -48,19 +48,13 @@ a:hover {
 }
 
 #texto {
-  margin-top: 150px;
   display: flex;
-
-   margin-top: 150px; 
- display: flex;
-
-  
   margin: 80px 60px;
-  display: flex;
+
   font-size: small;
 }
 
-p {
+.tiposdesilla {
   padding-left: 330px;
   padding-right: 30px;
   font-size: 22px;
@@ -100,13 +94,10 @@ p {
 .mi-titulo {
   margin-top: 100px;
   text-align: center;
-  font-size: 50px;
-}
   font-size: 20px;
 }
 
-.primera-img{
+.primera-img {
   margin-top: 50px;
   padding-left: 300px;
-}
 }
