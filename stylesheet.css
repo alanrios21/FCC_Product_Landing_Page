@@ -75,14 +75,15 @@ p {
 
 #form {
   text-align: center;
-}
+  }
 
 #form input {
   display: flex;
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
-  border-radius:8px;
+  border-radius:6px;
+  border-color: #8e6c88;
 }
 
 .mi-titulo {
@@ -94,4 +95,8 @@ p {
 .primera-img{
   margin-top: 50px;
   padding-left: 300px;
+}
+
+.fondoform{
+  background-color: teal;
 }
