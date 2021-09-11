@@ -51,14 +51,19 @@ a:hover {
   margin-top: 150px;
   display: flex;
 
+   margin-top: 150px; 
+ display: flex;
+
+  
   margin: 80px 60px;
   display: flex;
   font-size: small;
 }
 
 p {
-  padding-left: 10px;
+  padding-left: 330px;
   padding-right: 30px;
+  font-size: 22px;
 }
 
 #video {
@@ -77,11 +82,16 @@ p {
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
-  border-radius:;
+  border-radius:8px;
 }
 
 .mi-titulo {
   margin-top: 100px;
   text-align: center;
   font-size: 50px;
+}
+ 
+.primera-img{
+  margin-top: 50px;
+  padding-left: 300px;
 }
