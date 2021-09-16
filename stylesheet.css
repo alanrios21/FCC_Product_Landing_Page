@@ -16,13 +16,12 @@
   width: 100%;
   top: 0px;
   left: 0px;
-  padding: 20px;
+  padding: 0px;
   z-index: 1;
- 
 }
 
 #nav-bar ul {
-  right: 20px;
+  right: 60px;
   position: fixed;
   top: 20px;
 }
@@ -38,8 +37,9 @@
   padding: 6px 10px;
   border-radius: 10px;
   font-size: 22px;
- position: relative;
- top: 10px;
+  position: relative;
+  top: 25px;
+  font-weight: bold;
 }
 
 a:hover {
@@ -47,9 +47,9 @@ a:hover {
 }
 
 #header-img {
-  width: 50px;
-  margin-left: 40px;
-  margin-top: 0;
+  width: 70px;
+  margin-left: 90px;
+  margin-top:4px;
 }
 
 #texto {
@@ -65,18 +65,17 @@ a:hover {
   font-size: 18px;
 }
 
-.tiposdesilla1{
+.tiposdesilla1 {
   padding-left: 360px;
   padding-right: 60px;
   font-size: 18px;
 }
 
-.tiposdesilla2{
+.tiposdesilla2 {
   padding-left: 305px;
   padding-right: 10px;
   font-size: 18px;
 }
-
 
 #video {
   display: block;
@@ -131,7 +130,7 @@ a:hover {
   padding-left: 300px;
 }
 
-.text-precio{
+.text-precio {
   text-align: center;
   position: relative;
   left: 147px;
@@ -139,6 +138,15 @@ a:hover {
 }
 .fondoform {
   background-color: #7392b7;
+}
+
+#nombreAJP {
+  position: relative;
+  margin: -40px;
+  left: 40px;
+  bottom: 8px;
+  opacity: 0.9;
+  width: 250px;
 }
 
 #submit {
@@ -189,3 +197,7 @@ a:visited {
   text-decoration: none;
 }
 
+h2 {
+  position: relative;
+  top: 20px;
+}
